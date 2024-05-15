@@ -1,0 +1,63 @@
+.header {
+    padding-top: 44px;
+}
+
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-one {
+}
+
+.header-list{
+    display: flex;
+    gap: 30px;
+}
+
+.header-item{
+}
+
+.header-link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-primary);
+
+    &:hover,
+    &:focus {
+        color: var(--buttons-primary);
+    }
+}
+
+.box-two{
+    display: flex;
+}
+
+.header-btn-enter{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-primary);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: var(--buttons-primary);
+    }
+}
+
+.header-btn-registration {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--inputs-light);
+border-radius: 5px;
+padding: 15px 30px;
+border: none;
+display: flex;
+justify-content: center;
+background: var(--buttons-primary);
+}
