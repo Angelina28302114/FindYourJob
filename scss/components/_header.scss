@@ -1,5 +1,6 @@
 .header {
     padding-top: 44px;
+    background: var(--buttons-grey);
 }
 
 .header > .container {
@@ -32,6 +33,7 @@
 
 .box-two{
     display: flex;
+    gap: 40px;
 }
 
 .header-btn-enter{
@@ -60,4 +62,10 @@ border: none;
 display: flex;
 justify-content: center;
 background: var(--buttons-primary);
+
+   &:hover,
+   &:focus {
+    color: var(--buttons-primary);
+    background-color: var(--cards-border);
+   }
 }
