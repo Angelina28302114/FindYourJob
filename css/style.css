@@ -224,15 +224,9 @@ a {
   height: 128px;
   background-color: var(--buttons-grey);
 }
-.categories-item:hover, .categories-item:focus {
-  background-color: var(--buttons-primary);
-}
 
 .categories-svg {
   fill: var(--text-primary);
-}
-.categories-svg:hover, .categories-svg:focus {
-  fill: var(--inputs-light);
 }
 
 .categories-text {
@@ -242,6 +236,10 @@ a {
   text-align: center;
   color: var(--text-primary);
 }
-.categories-text:hover, .categories-text:focus {
+
+.categories-link:hover,
+.categories-link:focus {
   color: var(--inputs-light);
+  background-color: var(--buttons-primary);
+  fill: var(--inputs-light);
 }/*# sourceMappingURL=style.css.map */
