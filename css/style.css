@@ -225,6 +225,12 @@ a {
   background-color: var(--buttons-grey);
 }
 
+.categories-item > .categories-svg > .categories-text {
+  background-color: var(--buttons-primary);
+  fill: var(--inputs-light);
+  color: var(--inputs-light);
+}
+
 .categories-svg {
   fill: var(--text-primary);
 }
@@ -235,11 +241,4 @@ a {
   font-size: 16px;
   text-align: center;
   color: var(--text-primary);
-}
-
-.categories-link:hover,
-.categories-link:focus {
-  color: var(--inputs-light);
-  background-color: var(--buttons-primary);
-  fill: var(--inputs-light);
 }/*# sourceMappingURL=style.css.map */

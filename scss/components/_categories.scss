@@ -25,19 +25,19 @@
     height: 128px;
     background-color: var(--buttons-grey);
 
-    &:hover,
-    &:focus {
-        background-color: var(--buttons-primary);
-    }
+    // &:hover,
+    // &:focus {
+    //     background-color: var(--buttons-primary);
+    // }
 }
 
 .categories-svg {
     fill: var(--text-primary);
 
-    &:hover,
-    &:focus {
-        fill: var(--inputs-light);
-    }
+    // &:hover,
+    // &:focus {
+    //     fill: var(--inputs-light);
+    // }
 }
 
 .categories-text {
@@ -47,8 +47,8 @@
     text-align: center;
     color: var(--text-primary);
 
-    &:hover,
-    &:focus {
-        color: var(--inputs-light);
-    }
+    // &:hover,
+    // &:focus {
+    //     color: var(--inputs-light);
+    // }
 }
