@@ -25,19 +25,20 @@
     height: 128px;
     background-color: var(--buttons-grey);
 
-    // &:hover,
-    // &:focus {
-    //     background-color: var(--buttons-primary);
-    // }
+    &:hover,
+    &:focus {
+        background-color: var(--buttons-primary);
+    }
 }
 
 .categories-svg {
     fill: var(--text-primary);
+    margin-bottom: 15px;
 
-    // &:hover,
-    // &:focus {
-    //     fill: var(--inputs-light);
-    // }
+    &:hover,
+    &:focus {
+        fill: var(--inputs-light);
+    }
 }
 
 .categories-text {
@@ -47,8 +48,19 @@
     text-align: center;
     color: var(--text-primary);
 
-    // &:hover,
-    // &:focus {
-    //     color: var(--inputs-light);
-    // }
+    &:hover,
+    &:focus {
+        color: var(--inputs-light);
+    }
+}
+
+.categories-list > .categories-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 35px 55px;
+    width: 166px;
+    height: 128px;
 }
