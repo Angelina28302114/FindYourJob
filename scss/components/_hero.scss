@@ -1,121 +1,120 @@
 .hero {
-padding-top: 75px;
-padding-bottom: 58px;
-background: var(--buttons-grey);
+  padding-top: 75px;
+  padding-bottom: 58px;
+  background: var(--buttons-grey);
 }
 
 .hero > .container {
-    display: flex;
-        @media screen and (min-width: 320px) {
-           flex-direction: column;
-          }
-        
-          @media screen and (min-width: 1176px) {
-            flex-direction: row; 
-          }
-    }
+  display: flex;
+  @media screen and (min-width: 320px) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 1176px) {
+    flex-direction: row;
+  }
+}
 
 .hero-box-one {
-margin-top: 118px;
+  margin-top: 118px;
 }
 
 .hero-title {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
   font-weight: 900;
   color: var(--text-primary);
-  
-    @media screen and (min-width: 320px) {
+
+  @media screen and (min-width: 320px) {
     margin-bottom: 20px;
     font-size: 24px;
     text-align: center;
-      }
-    
-      @media screen and (min-width: 1176px) {
-      margin-bottom: 15px;
-      font-size: 44px;
-      text-align: start;
-      width: 530px;
-      }
+  }
+
+  @media screen and (min-width: 1176px) {
+    margin-bottom: 15px;
+    font-size: 44px;
+    text-align: start;
+    width: 530px;
+  }
 }
 
 .hero-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    
-    line-height: 140%;
-    color: var(--text-primary);
-    
-  
-    @media screen and (min-width: 320px) {
-      font-size: 16px;
-      margin-bottom: 29px;
-      text-align: center;
-      }
-    
-      @media screen and (min-width: 1176px) {
-      font-size: 18px;
-      margin-bottom: 15px;
-      text-align: start;
-      width: 530px;
-      }
+  font-family: var(--font-family);
+  font-weight: 400;
+
+  line-height: 140%;
+  color: var(--text-primary);
+
+  @media screen and (min-width: 320px) {
+    font-size: 16px;
+    margin-bottom: 29px;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1176px) {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: start;
+    width: 530px;
+  }
 }
 
 .hero-span {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--inputs-grey);
-    margin-right: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--inputs-grey);
+  margin-right: 15px;
 }
 
 .hero-btn {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--inputs-grey);
-    border: 1px solid var(--inputs-grey);
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-right: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--inputs-grey);
+  border: 1px solid var(--inputs-grey);
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
 
-    &:hover,
-    &:focus {
-        color: var(--buttons-grey);
-        background-color: var(--buttons-primary);
-    }
+  &:hover,
+  &:focus {
+    color: var(--buttons-grey);
+    background-color: var(--buttons-primary);
+  }
 }
 
 .hero-box-two {
-   display: flex;
-   gap: 89px;
-   margin-bottom: 56px;
+  display: flex;
+  gap: 89px;
+  margin-bottom: 56px;
 }
 
 .hero-box-three {
-margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .hero-look {
-    margin-right: 10px;
-    fill: white;
+  margin-right: 10px;
+  fill: white;
 }
 
 .hero-btn-one {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--inputs-light);
-    border-radius: 5px;
-    padding: 15px 30px;
-    background: var(--buttons-primary);
-    border: none;
-    cursor: pointer;
-    margin-left: 89px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--inputs-light);
+  border-radius: 5px;
+  padding: 15px 30px;
+  background: var(--buttons-primary);
+  border: none;
+  cursor: pointer;
+  margin-left: 89px;
 
-    &:hover,
-    &:focus {
-      color: var(--buttons-primary);
-      background-color: var(--cards-border);
-    }
+  &:hover,
+  &:focus {
+    color: var(--buttons-primary);
+    background-color: var(--cards-border);
+  }
 }
