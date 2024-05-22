@@ -6,12 +6,12 @@
     // margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+  
+    @media screen and (min-width: 320px) {
+        max-width: 320px;
+      }
     
-    @media screen and (min-widht: 320px) {
-    max-width: 320px;
-    }
-    
-    @media screen and (min-widht: 1176px) {
-    max-width: 1176px;
-    }
-    }
+      @media screen and (min-width: 1176px) {
+        max-width: 1176px;
+      }
+  }

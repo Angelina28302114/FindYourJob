@@ -12,14 +12,14 @@
 }
 
 .header-list{
-    @media screen and (min-widht: 320px) {
+    @media screen and (min-width: 320px) {
         display: none;
-        }
-        
-        @media screen and (min-widht: 1176px) {
-            display: flex;
-            gap: 30px;
-        }
+      }
+    
+      @media screen and (min-width: 1176px) {
+        display: flex;
+        gap: 30px;
+      }
 }
 
 .header-item{
@@ -43,35 +43,64 @@
 }
 
 .header-btn-enter{
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--text-primary);
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-
-    &:hover,
-    &:focus {
-        color: var(--buttons-primary);
-    }
+    @media screen and (min-width: 320px) {
+        display: none;
+      }
+    
+      @media screen and (min-width: 1176px) {
+        display: block;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--text-primary);
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    
+        &:hover,
+        &:focus {
+          color: var(--buttons-primary);
+        }
+      }
 }
 
 .header-btn-registration {
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-color: var(--inputs-light);
-border-radius: 5px;
-padding: 15px 30px;
-border: none;
-display: flex;
-justify-content: center;
-background: var(--buttons-primary);
-
-   &:hover,
-   &:focus {
-    color: var(--buttons-primary);
-    background-color: var(--cards-border);
-   }
+    @media screen and (min-width: 320px) {
+        display: none;
+      }
+    
+      @media screen and (min-width: 1176px) {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--inputs-light);
+        border: none;
+        display: flex;
+        justify-content: center;
+    
+        border-radius: 5px;
+        padding: 15px 30px;
+        background: var(--buttons-primary);
+    
+        &:hover,
+        &:focus {
+          color: var(--buttons-primary);
+          background-color: var(--inputs-light);
+          border: 1px solid gray;
+        }
+      }
 }
+
+//мобільне меню
+.mobil-btn {
+    @media screen and (min-width: 320px) {
+      display: block;
+      position: absolute;
+      top: 45px;
+      right: 15px;
+    }
+  
+    @media screen and (min-width: 1176px) {
+      display: none;
+    }
+  }
